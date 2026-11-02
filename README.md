@@ -1,6 +1,8 @@
 This repo is to generate a C Header file that will be usable with the GameTank C APK.
 The data is taken from a .JSON file that is created from the [Tiled Level Editor](https://github.com/mapeditor/tiled).
 
+**Tested to work on Tiled version 1.10**
+
 ## Build Project
 Make sure to install the submodules, as this depends on [cJSON](https://github.com/davegamble/cjson) being in the 'third_party/cJSON' folder.
 ```
