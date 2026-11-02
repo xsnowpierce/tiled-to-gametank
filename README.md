@@ -3,6 +3,8 @@ The data is taken from a .JSON file that is created from the [Tiled Level Editor
 
 **Tested to work on Tiled version 1.10**
 
+This is not intended to be a loader. It might be, or I might make a separate repository for such a thing. The scope of this for now is just to generate a .H file from Tiled's .JSON, for easy, rapid prototyping with the level.
+
 ## Build Project
 Make sure to install the submodules, as this depends on [cJSON](https://github.com/davegamble/cjson) being in the 'third_party/cJSON' folder.
 ```
